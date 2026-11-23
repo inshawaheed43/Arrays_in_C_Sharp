@@ -38,7 +38,7 @@ namespace Arraysinc
                 for (int j = 0; j < num.GetLength(1); j++)
                 {
 
-
+                    Console.WriteLine(num[i, j]);
                     
                 }
 
