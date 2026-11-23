@@ -8,7 +8,10 @@ class Program
         //decArray obj = new decArray();
         //obj.declareArray();
 
-        TypesofArray obj1 = new TypesofArray();
-        obj1.tpofArr();
+        //TypesofArray obj1 = new TypesofArray();
+        //obj1.tpofArr();
+
+        arrWithLoops obj2 = new arrWithLoops();
+        obj2.arrWLoop();
     }
 }
