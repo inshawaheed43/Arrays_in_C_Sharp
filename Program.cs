@@ -8,12 +8,29 @@ class Program
         //decArray obj = new decArray();
         //obj.declareArray();
 
+
+
+
         //TypesofArray obj1 = new TypesofArray();
         //obj1.tpofArr();
 
+
+
+
         //arrWithLoops obj2 = new arrWithLoops();
         //obj2.arrWLoop();
-        jaggedArr obj3 = new jaggedArr();
-        obj3.jagArr();
+
+
+
+        //jaggedArr obj3 = new jaggedArr();
+        //obj3.jagArr();
+
+
+        arrwithUser obj4 = new arrwithUser();
+        obj4.arrWUserInput();
+
+
+
+
     }
 }
