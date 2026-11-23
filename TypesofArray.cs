@@ -32,16 +32,16 @@ namespace Arraysinc
 
             // USING NESTED FOR LOOPS FOR RETRIEVING ALL VALUES
 
-            //for (int i = 0; i < num.GetLength(0); i++)
-            //{
-            //    for (int j = 0; j < num.GetLength(1); j++)
-            //    {
+            for (int i = 0; i < num.GetLength(0); i++)
+            {
+                for (int j = 0; j < num.GetLength(1); j++)
+                {
 
-            //        Console.WriteLine(num[i, j] +" ");
-                    
-            //    }
+                    Console.WriteLine(num[i, j] + " ");
 
-            //}
+                }
+
+            }
 
 
 
