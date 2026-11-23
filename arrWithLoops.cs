@@ -19,7 +19,7 @@ namespace Arraysinc
 
             for (int i = 0; i < numbers.Length; i++)
             {
-                Console.WriteLine(numbers[i]); 
+                Console.WriteLine(numbers[i]);
             }
 
             foreach (var n in numbers)
@@ -27,6 +27,19 @@ namespace Arraysinc
                 Console.WriteLine(n);
 
             }
+
+
+            string[] names = new string[3];
+            names[0] = "Insha";
+            names[1] = "InshaWW"; 
+            names[2] = "InshaWWW";
+
+
+            foreach (string g in names)
+            {
+                Console.WriteLine(g);
+            }
+
 
         }
     }
