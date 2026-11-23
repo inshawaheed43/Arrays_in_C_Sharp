@@ -13,7 +13,27 @@ namespace Arraysinc
             myArr[1] = new[] { 11, 2, 3, 2 };
             myArr[2] = new[] { 11, 2, 3, 2 };
 
-            Console.WriteLine(myArr[2][3]);
+
+            //for (int i = 0; i < myArr.GetLength(0); i++)
+            //{
+            //    for (int j = 0; j < myArr.GetLength(1); j++)
+            //    {
+            //        Console.WriteLine(myArr[i][j]+ " ");
+
+
+            //    }
+
+
+            foreach (int[] n in myArr)
+            {
+                foreach (int i in n)
+                {
+                    Console.WriteLine(i + " ");
+
+                }
+            }
         }
+        
+
     }
 }
